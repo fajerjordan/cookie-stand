@@ -163,3 +163,100 @@ Dubai.showRusl();
 Paris.showRusl();
 Lima.showRusl();
 
+
+//////////////////////////////////// constructor ////////////////////////////////////////
+
+
+'use strict'
+let workHours= ['','6 am','7 am','8 am','9 am','10 am','11 am','12 am','1 pm','2 pm','3 pm','4 pm','5 pm','6 pm','7 pm','8 pm'];]
+let hourlySum=0;
+let locaionSum= [];
+let main=document.getElementById('sales');
+let tabelHead=document.createElement('th');
+let tabelRow=document.createElement('tr');
+let table=document.createElement('tablel');
+let tabelData=document.createElement('td');
+let footer=document.createElement('tfoot');
+let header=document.createElement('thead');
+
+main.appendChild(table);
+header.appendChild(tabelRow);
+tabelRow.appendChild(tabelHead);
+for(let i=0; i<=workHours.length;i++){
+    if)i<workHours.length){
+        tabelHead.innerText=(workHours[i]);
+        tabelHead=document.createElement('th');
+        tabelRow/appendChild(tabelHead);
+    } else if (i===workHours.length){
+        tabelHead.innerText=('Total sales for the day')
+    }
+}
+function cookiesStand(minSales, maxSales, avgSales, locaion){
+    this.minSales=minSales;
+    this.maxSales=maxSales;
+    this.avgSales=avgSales;
+    this.locaion=location;
+}
+
+cookiesStand.prototype.data=function(){
+    tabelRow=document.createElement('tr');
+    tabelHead=document.createElement('th');
+    hourlySum=0;
+    for(let i= 0; i<workHours.length;i++){
+
+        if(i===workHours.length-1){
+            tabelData.innerText=hourlySum;
+            tabelRow.appendChild(tabelData);
+            tabelData=document.createElement('td');
+            break;
+        }
+        if (i==0){
+            tabelHead.innerText=this.locaion;
+            tabelRow.appendChild(tabelHead);
+        }
+        tabelData.innerText=Math.floor((Math.random()*(this.maxSales-this.minSales-1)+this.minSales)*this.avgSales);
+        locaionSum.push(parseInt(tabelData.innerText));
+        hourlySum+=parseInt(tabelData.innerText);
+
+        tabelRow.appendChild(tabelData);
+        tabelData=document.createElement('td');
+    }
+};
+
+let seattle= new cookiesStand(23, 65, 6.3, 'Seattle');
+seattle.data();
+
+let Tokyo= new cookiesStand(3,24,1.2, 'Tokyo');
+Tokyo.data();
+
+let Dubai= new cookiesStand(11,38,3.7, 'Dubai');
+Dubai.data();
+
+let Paris= new cookiesStand(20, 38, 2.3, 'Paris');
+Paris.data();
+
+let Lima= new cookiesStand(2,16,2.3, 'Lima');
+Lima.data();
+
+tabel.appendChild(footer);
+tabelRow=document.createElement('th');
+footer.appendChild(tabelRow);
+tabelHead=document.createElement('th');
+tabelRow.appendChild(tabelHead);
+tabelHead.innerHTML='total';
+for(let j=0;j<15;j++){
+    let count=0;
+    for (let i=0+j;i<75;i+=15){
+        count+=locaionSum[i];
+    }
+    tabelData=document.createElement('td');
+    tabelRow.appendChild(tabelData);
+    tabelData.innerText=count;
+}
+hourlySum=0;
+for(let i=0; i<locaionSum.length;i++)
+hourlySum+=locaionSum[i];
+}
+tabelData.document.createElement('td');
+tabelRow.appendChild(tabelData);
+tabelData.innerText=hourlySum;
