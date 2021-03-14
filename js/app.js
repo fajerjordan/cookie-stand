@@ -344,12 +344,17 @@ formElement.addEventListener('submit', function(event)
 /*******************************************END*********************************************/
 /*******************************************************************************************/
 
+
+
+
+
+
 // instance of store
-new Store('1st and Pike', 23, 65, 6.3);
-new Store('SeaTac Airport', 3, 24, 1.2);
-new Store('Seattle Center', 11, 38, 3.7);
-new Store('Capitol Hill', 20, 38, 2.3);
-new Store('Alki', 2, 16, 4.6);
+new Store('Seattle', 23, 65, 6.3);
+new Store('Tokyo', 3, 24, 1.2);
+new Store('Dubai', 11, 38, 3.7);
+new Store('Paris', 20, 38, 2.3);
+new Store('Lima', 2, 16, 4.6);
 
 // attach html table to a variable
 var tableElement = document.getElementById('storesData');
