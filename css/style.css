@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  color:  green;
+  text-align: center;
+}
 
 h3 {
   color:  green;
@@ -178,20 +182,15 @@ ul, li
   text-align: center;
   border: #3A3042;
   align-content: center;
+  color:  green;
+
 }
 
-/* quotes from a clients */
-.quotes
-{
-  display: flex;
-  list-style: none;
-  text-align: center;
-  border: #3A3042;
-}
 
 /* footer */
 footer
 {
   text-align: center;
   margin-top: 1em;
+    color:  green;
 }
