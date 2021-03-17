@@ -12,66 +12,50 @@
 
 
 <body>
-    <h1 class="id" style="text-align: center;" > Welcome To Salmon Cookies Store ❤</h1>
-<section>
-<img style="text-align: center;" src="img/salmon.png" alt="salmon Cookies" width= "30%" height="30%"> 
-</section>
-<h3 style="text-align: center;">⊰✿ We Are Happy To Serve You All Week From 6 am to 8 pm ✿⊱</h3>
+<header>
+	<nav>
+        <img id = "logo" src="img/salmon.png" alt="Salmon Cookies">
+        <Ul>
+			<li><a href="./sales.html">Sales</a></li>
+            <li><a href="#ourBranches">Our Branches</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </Ul> 
+    </nav>
+</header>
 
-<section>
-    <a href="sales.html">⊰----------------------- Sales -----------------------⊱</a>
-    <br>
-    <br>
-<img src="https://www.pngrepo.com/download/78507/cookies.png" alt=""  width="47" height="48" sizes="(max-width: 47px) 100vw, 47px">
-<p style= text-align: center;">Each Salmon Cookies Made with 💗<br>
-    From Seattle To The World<br>
-    Email: info@salmoncookies.com&nbsp; |&nbsp; &nbsp;Phone: +(962) 798726263</p>
 
+<h1 class="id" style="text-align: center;" > Welcome To Salmon Cookies Store ❤</h1>
+	<img src="https://ak.picdn.net/shutterstock/videos/4047760/thumb/3.jpg" alt="Family Chatting and Having Cookies" width="1050" height="600">
+<h2 style="text-align: center;">⊰✿ We Are Happy To Serve You All Week From 6 am to 8 pm ✿⊱</h2>
+
+<hr>
+<h2 id="ourBranches">Our Branches</h2>
+	<div class="branchesPhoto">
+		<a href= "https://goo.gl/maps/mAw9TZKoFxnV3wMW6" target="_blank"><img class="picturesSelection" id="Seattle" src="https://bit.ly/3qT9WMk" alt="Click to find a location" width="350" height="350" ></a>
+		<a href= "https://goo.gl/maps/WV2bJeZWKUitRrkb9" target="_blank"><img class="picturesSelection" id="Tokyo" src="https://on.ft.com/2OGi4mc" alt="Click to find a location" width="350" height="350"></a>
+		<a href= "https://goo.gl/maps/NDrQQmWx6nfSNtDH7" target="_blank"><img class="picturesSelection" id="Dubai" src="https://bit.ly/3bR5UQe" alt="Click to find a location" width="350" height="350"></a>
+		<a href= "https://goo.gl/maps/ad2WeFvYm9sun6LM8" target="_blank"><img class="picturesSelection" id="Paris" src="https://bit.ly/2OAcwK6" alt="Click to find a location" width="350" height="350"></a>
+		<a href= "https://goo.gl/maps/VxUNJp2hU4jPYBry9" target="_blank"><img class="picturesSelection" id="Lima" src="https://bit.ly/3tAnMVH" alt="Click to find a location" width="350" height="350"></a>
+		<a href= "https://goo.gl/maps/KpzVwsK2kNh4MaAd9" target="_blank"><img class="picturesSelection" id="Amman" src="https://bit.ly/3lsQy7Q" alt="Click to find a location" width="350" height="350"></a>
+	</div>
+<br>
+<hr>
+<br>	
+
+<img src="https://www.pngrepo.com/download/78507/cookies.png" style= "display: block;  margin-left: auto; margin-right: auto;" alt=""  width="47" height="48" sizes="(max-width: 47px) 100vw, 47px" >
+
+<h2 style= "text-align:center;">Each Salmon Cookies Made with 💗<br>
+    From Seattle To The World</h2>
 </section>
    
-
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script></body>
-
 <footer>
-    <br>
-    <div>© 2021 SALMON COOKIES . All rights reserved</div>
+	<br>
+	<hr>
+    <h2 id="contact">Contact Us</h2>
+   <h3>Email: info@salmoncookies.com&nbsp; |&nbsp; &nbsp;Phone: +(962) 798726263</h3>
 </footer>
+<br>
+<br>
+<div style= "display: block;  margin-left: 70%; margin-right: auto;">© 2021 SALMON COOKIES . All rights reserved</div>
 
 </html>

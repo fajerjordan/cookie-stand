@@ -1,19 +1,74 @@
+* {
+  margin:0;
+  padding: 0;
 
-body {
-  color: rgb(39, 27, 16);
-  text-align: center;
+
 }
 
-h2 {
-  color:  green;
+body {
+
+  margin: 0 75px 0 100px  ;
+  
+  }
+  
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(243, 243, 247, 0);
+
+}
+
+#logo {
+
+  height: 60px;
+
+  }
+
+ul {
+
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+li {
+  font-size: 1.5em;
+  float: left;
+  margin: 25px 20px 20px 20px ;
+ 
+}
+
+li:active {
+  color:  rgb(29, 29, 36);
+
+}
+
+li:hover {
+  color: 
+  rgb(0, 0, 0);
+}
+
+h1
+{
+
+  font-size: 3em;
   text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h2
+{
+  margin: 1em 1em 1em 1em;
+  font-size: 1.5em;
+  color:  rgb(0, 0, 0);
+  text-align: center;
+  
 }
 
 h3 {
-  color:  green;
+  color:  rgb(0, 0, 0);
   text-align: center;
 }
-
 
 
 p {
@@ -47,19 +102,13 @@ header
 
 #salmonpic
 {
-  /* margin: 1em 1em 1em 1em; */
   padding-top: 10em;
-  /* padding-bottom: -10em; */
+  align-items: center;
   padding-right: -10em;
+  position: absolute;
+  text-align: center;
 }
-#quotepic
-{
-  padding-top: 2em;
-  padding-bottom: 5em;
-  padding-left: -10em;
-  height: 10em;
-  width: 20em;
-}
+
 
 .center
 {
@@ -132,27 +181,11 @@ table, th, td
 
 }
 
-h2
-{
-  margin: 1em 1em 1em 1em;
-  font-size: 1.5em;
-  color:  green;
-  text-align: center;
-  
-}
-h1
-{
-
-  font-family: 'Gaegu', cursive;
-  font-size: 5em;
-  text-align: center;
-  color:  rgb(14, 10, 1);
-}
 
 .text
 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #f1ab86;
+  color: #b11d1d;
   text-shadow: -1px 1px #251605;
   font-size: 2em;
 }
@@ -174,23 +207,20 @@ ul, li
   margin: 1em 1em 1em 1em;
 }
 
-/* locations section */
-.location
-{
-  display: flex;
-  list-style: none;
-  text-align: center;
-  border: #3A3042;
-  align-content: center;
-  color:  green;
-
-}
 
 
 /* footer */
 footer
 {
-  text-align: center;
+  text-align: center
   margin-top: 1em;
-    color:  green;
 }
+
+div.branchesPhoto
+ {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+

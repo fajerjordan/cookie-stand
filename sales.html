@@ -1,31 +1,43 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Sales</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
- 
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+
+</head>
+
+
+<body>
+<header>
+	<nav>
+        <img id = "logo" src="img/salmon.png" alt="Salmon Cookies">
+        <Ul>
+			<li><a href="./index.html">Home Page</a></li>
+        </Ul> 
+    </nav>
+</header>
 
 <body>
 
-
-</head>
-<div id="navbar">
-    <a href="./index.html">Back to main page</a>
-</div> 
+<br>
   <header>
-    <h1 class="center">All Our Branches</h1>
+    <h1 class="center">Cookies Needed By Location Each Day</h1>
   </header>
   <main class="container">
     <p id="store-name"></p>
-    <h2 class="center">Cookies Needed By Location Each Day:</h2>
-    
+    <h2 class="center">To add new branche use next form :</h2>
+    <br>
+
+	<br>
+
     <form id="main-form">
-      <!-- fieldset inside of form  -->
+
       <fieldset>
 
         <label for="store_name">Store Name</label>
@@ -42,7 +54,9 @@
     </fieldset>
 
     </form>
-  
+	<br>
+<hr>
+<br>
     <table id="storesData">
 
     </table>
@@ -50,10 +64,7 @@
     </section>
   </main>
 
-  <script src="./app/app.js"></script>
-<!-- Code injected by live-server -->
 <script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
 		(function () {
 			function refreshCSS() {
@@ -87,11 +98,26 @@
 	else {
 		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
 	}
-	// ]]>
 </script>
- <footer>
-    <br>
-    <div>© 2021 SALMON COOKIES . All rights reserved</div>
+<script src="./js/app.js"></script>
+<br>
+<hr>
+<br>	
+
+<img src="https://www.pngrepo.com/download/78507/cookies.png" style= "display: block;  margin-left: auto; margin-right: auto;" alt=""  width="47" height="48" sizes="(max-width: 47px) 100vw, 47px" >
+
+<h2 style= "text-align:center;">Each Salmon Cookies Made with 💗<br>
+    From Seattle To The World</h2>
+</section>
+   
+<footer>
+	<br>
+	<hr>
+    <h2 id="contact">Contact Us</h2>
+   <h3>Email: info@salmoncookies.com&nbsp; |&nbsp; &nbsp;Phone: +(962) 798726263</h3>
 </footer>
-</body>
+<br>
+<br>
+<div style= "display: block;  margin-left: 70%; margin-right: auto;">© 2021 SALMON COOKIES . All rights reserved</div>
+
 </html>

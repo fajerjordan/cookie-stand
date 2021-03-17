@@ -178,7 +178,7 @@ formElement.addEventListener('submit', function(event)
 
 // instance of store
 new Store('Seattle', 23, 65, 6.3);
-new Store('', 3, 24, 1.2);
+new Store('Tokeo', 3, 24, 1.2);
 new Store('Dubai', 11, 38, 3.7);
 new Store('Paris', 20, 38, 2.3);
 new Store('Lima', 2, 16, 4.6);
